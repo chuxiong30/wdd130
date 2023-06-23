@@ -1,0 +1,16 @@
+body{
+    background-color: pink;
+
+}
+
+@media screen and (min-width: 630px) {
+    body{
+       background-color: seagreen;
+    }
+}
+
+@media screen and (min-width: 830px) {
+    body {
+        background-color: blue;
+    }
+}

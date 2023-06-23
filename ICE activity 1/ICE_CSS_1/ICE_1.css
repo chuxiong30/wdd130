@@ -1,5 +1,5 @@
 .main-content{
-    color: #ffffff;
+    /* color: #ffffff; */
 }
 
 
@@ -12,8 +12,13 @@ html, body {
     text-emphasis-color: white;
 }
 
+nav h4, h5 {
+    color: white;
+}
 
-
+main h1 {
+    color: white;
+}
 
 
 
