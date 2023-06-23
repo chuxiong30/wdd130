@@ -1,33 +1,39 @@
-.email { /* email*/
-   /* z-index:1000; 
-    grid-row: 4/5;
-    grid-column: 1/4;*/
-    width: 300px;
-    height: 40px;    
-    margin-inline-end: 500px;
-    margin-top: 500px;
-    margin-left: -550px;
+.content1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
 }
 
-.name { /*name */
-    /*z-index:1000; 
-    grid-row: 4/5;
-    grid-column: 1/2;*/
+
+#email { 
+    z-index: 1;
+    width: 300px;
+    height: 40px;    
+    position: fixed;
+    margin-inline-end: 900px;
+    margin-top: 500px;
+    margin-left: -350px;
+}
+
+#name { 
+    z-index: 1;
     width: 300px;
     height: 40px;
-    margin-inline-end: 500px;
+    position: fixed;
+    margin-inline-end: 900px;
     margin-top: 70px;
-    margin-left: -550px;
+    margin-left: -350px;
 
 } 
 
 .square {
-    height: 20px;
-    width: 20px;
+    height: 15px;
+    width: 15px;
+    float: right;
     vertical-align: middle;
-    position: relative;
-    left: 1400px;
-    top: 50px;
+    position: absolute;
+    left: 1350px;
+    top: 736px;
 } 
 
 .button {
@@ -36,14 +42,7 @@
     vertical-align: middle;
     position: relative;
     top: 100px;
-    right: 530px;
-}
-
-
-.content1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-items: center;
+    right: 630px;
 }
 
 
